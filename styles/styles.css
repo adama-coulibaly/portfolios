@@ -614,6 +614,11 @@ section {
   gap: 10px;
   padding: 2%;
 }
+.send{
+  text-align: center;
+  border: 1px solid white; 
+  border-radius: 75px;
+}
 
 
 
@@ -728,12 +733,7 @@ justify-content: space-around;
   overflow: hidden;
   width: 28%;
 }
-.bouton-contact .btn-text {
-margin: 2%;
-}
-.bouton-contact .btn-icon {
- 
-}
+
 
 
 
