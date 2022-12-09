@@ -616,8 +616,8 @@ section {
 }
 .send{
   text-align: center;
-  border: 1px solid white; 
   border-radius: 75px;
+  font-size: 20px;
 }
 
 
@@ -649,6 +649,21 @@ justify-content: space-around;
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
 }
+.monChampt input{
+  /* margin: 1.5rem 0; */
+  border-radius: 15px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-5);
+  width: 100%;
+  color: var(--color-white);
+  resize: none;
+ 
+}
 .contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
   border-radius: 15px;
   font-weight: inherit;
@@ -678,6 +693,15 @@ justify-content: space-around;
   display: flex;
   align-self: flex-start;
 } */
+
+
+/* CONTACT */
+.chmaps-cote{
+display: flex;
+flex-direction: row; 
+justify-content: space-evenly;
+gap: 2%;
+}
 
 .main-btn {
   border-radius: 30px;
