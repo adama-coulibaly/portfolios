@@ -49,6 +49,10 @@ body {
  gap: 10px;
 }
 
+.tss{
+  color: white;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
